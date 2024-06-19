@@ -1,0 +1,58 @@
+/* =========== General =========== */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: white;
+  background-color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(192, 192, 192);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(163, 163, 163);
+}
+
+
+
+:root {
+  --main-color: rgb(112,204, 133);
+  --secondary-color: rgb(80, 179, 182);
+  --title-color: #222;
+  --subtitle-color: #8d8d8d;
+}
+
+body {
+  font-family: Poppins, Sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 1000px;
+  box-sizing: border-box;
+}
+  
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Sans-serif;
+}
+
+section {
+  overflow: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
