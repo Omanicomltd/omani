@@ -212,6 +212,7 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  text-align: center;
 }
 .home--about-sec h1::after {
   content: '';
@@ -219,6 +220,24 @@
   padding: 3.5px 10px;
   background: linear-gradient(45deg, var(--secondary-color)15%, var(--main-color)65%);
   align-items: center;
+}
+.home--about--flx-con {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  gap: 30px;
+}
+.home--about--flx-con a {
+  text-underline-offset: 5px;
+  cursor: pointer;
+  color: var(--main-color);
+}
+.home--about--flx-con a:hover {
+  text-decoration: underline;
+}
+.home--about--flx-con img {
+  height: 500px;
+  object-fit: contain;
 }
 .home--about-sec p {
   margin-top: 20px;
@@ -265,6 +284,9 @@
   .home--hero--btn {
     margin: 40px 0 134px;
   }
+  .home--about--flx-con {
+    flex-direction: column;
+  }
 }
 @media (max-width: 704px) {
   .home--hero--text-div h1 {
@@ -298,5 +320,15 @@
   }
   .hero-header {
     font-weight: 900;
+  }
+  .home--about-sec h1{
+    display: flex;
+    justify-content: center;
+  }
+  .home--about-sec h1::before {
+    display: none;
+  }
+  .home--about-sec h1::after {
+    display: none;
   }
 }
