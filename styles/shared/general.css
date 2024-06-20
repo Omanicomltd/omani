@@ -27,7 +27,8 @@ html {
 
 
 :root {
-  --main-color: rgb(112,204, 133);
+  /* --main-color: rgb(112,204, 133); */
+  --main-color: rgba(139, 0, 0, 0.8);
   --secondary-color: rgb(80, 179, 182);
   --title-color: #222;
   --subtitle-color: #8d8d8d;

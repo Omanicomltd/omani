@@ -41,6 +41,8 @@
   margin-left: 30px;
 }
 .drp-dwn a button:hover {
+  border: none;
+  padding: 12px 22px;
   background: linear-gradient(
     45deg,
     var(--secondary-color) 15%,
@@ -234,6 +236,8 @@ nav ul li .active {
   margin-left: 30px;
 }
 .header a button:hover {
+  border: none;
+  padding: 12px 22px;
   background: linear-gradient(
     45deg,
     var(--secondary-color) 15%,
