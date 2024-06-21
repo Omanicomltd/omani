@@ -33,15 +33,6 @@ html {
   --title-color: #222;
   --subtitle-color: #8d8d8d;
 }
-
-body {
-  font-family: Poppins, Sans-serif;
-  margin: 0;
-  overflow-x: hidden;
-  position: relative;
-  padding-bottom: 1000px;
-  box-sizing: border-box;
-}
   
 * {
   margin: 0;

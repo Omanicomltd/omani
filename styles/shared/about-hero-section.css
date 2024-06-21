@@ -1,3 +1,12 @@
+body {
+  font-family: Poppins, Sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 1000px;
+  box-sizing: border-box;
+}
+
 .hero--sec {
   background-image: url(../background-images/hands-reaching-pot.png);
   background-repeat: no-repeat;
@@ -28,6 +37,7 @@
   );
   background-clip: text;
   color: transparent;
+  margin-top: 50px;
 }
 .swipe-pagination-bullet-con {
   display: flex;
