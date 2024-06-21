@@ -25,7 +25,7 @@
   flex: 1;
 }
 .drp-dwn a button {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   border-right: 2px solid var(--main-color);
   border-left: 2px solid var(--secondary-color);
   border-top: 2px solid var(--main-color);
@@ -171,7 +171,7 @@ nav ul li .active {
 .header {
   top: 0;
   z-index: 9;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: transparent;
 }
 .header .logo {
   font-size: 2em;
@@ -220,7 +220,7 @@ nav ul li .active {
   font-size: 16px;
 }
 .header a button {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   border-right: 2px solid var(--main-color);
   border-left: 2px solid var(--secondary-color);
   border-top: 2px solid var(--main-color);

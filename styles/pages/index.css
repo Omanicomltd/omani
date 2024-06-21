@@ -13,19 +13,20 @@
   background-size: cover;
   background-position: top;
   text-size-adjust: 100%;
+  height: 100vh;
 }
 .home--hero--text-div {
   position: relative;
-  height: 100%;
-  padding: 50px;
   display: flex;
-  flex-direction: column;
+  height: 100%;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.4); */
 }
 .home--hero--text-div h1 {
   font: 96px poppins, sans-serif;
-  margin-top: 27px;
+  margin-top: -50px;
   font-weight: 900;
   max-width: 950px;
   letter-spacing: -1px;
@@ -65,8 +66,6 @@
   );
   padding: 3px 20px;
   align-self: center;
-  position: absolute;
-  bottom: 50px;
 }
 
 
@@ -246,9 +245,6 @@
 }
 
 @media (max-width: 1132px) {
-  .home--hero--text-div {
-    padding: 50px 35px;
-  }
   .home--service--portfolio {
     padding: 150px 35px;
   }
@@ -262,9 +258,6 @@
     max-width: 850px;
     line-height: 95px;
   }
-  .home--hero--text-div {
-    padding: 50px 20px;
-  }
 }
 @media (max-width: 1002px) {
   .home--service--portfolio {
@@ -276,6 +269,9 @@
 }
 
 @media (max-width: 812px) {
+  .home--hero--sec {
+  height: 90vh;
+}
   .home--hero--text-div h1 {
     font-size: 63px;
     max-width: 650px;
