@@ -1,0 +1,101 @@
+.hero--sec {
+  background-image: url(../background-images/hands-reaching-pot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.hero--text-div {
+  /* height: 100%; */
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+.hero--text-div h1 {
+  font: 96px poppins, sans-serif;
+  font-weight: 900;
+  letter-spacing: -3px;
+  text-align: center;
+  line-height: 126px;
+  background: linear-gradient(
+    45deg,
+    var(--secondary-color) 15%,
+    var(--main-color) 65%
+  );
+  background-clip: text;
+  color: transparent;
+  margin-top: 50px;
+}
+.swipe-pagination-bullet-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swipe-pagination-bullet {
+  background: linear-gradient(
+    45deg,
+    var(--secondary-color) 15%,
+    var(--main-color) 65%
+  );
+  padding: 50px 2.5px;
+  margin-top: -50px;
+}
+/* when window is scrolled Y
+ add this to create a drop down header 
+ if greater than 85px remove
+ and remove at 0 */
+.win-scrl {
+  top: 0;
+  opacity: 1;
+  transition-delay: 0.75s;
+}
+
+@media (max-width: 1132px) {
+  .hero--text-div {
+    padding: 0 35px;
+  }
+  .hero--text-div h1 {
+    font-size: 87px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1002px) {
+  .hero--text-div {
+    padding: 0 20px;
+  }
+  .hero--text-div h1 {
+    font-size: 79px;
+  }
+}
+
+@media (max-width: 894px) {
+  .hero--text-div h1 {
+    font-size: 71px;
+  }
+}
+
+@media (max-width: 794px) {
+  .hero--text-div h1 {
+    font-size: 63px;
+  }
+}
+
+@media (max-width: 704px) {
+  .hero--text-div h1 {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero--text-div h1 {
+    font-weight: 900;
+  }
+  .hero-header {
+    font-weight: 900;
+  }
+}
