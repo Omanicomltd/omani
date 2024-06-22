@@ -151,7 +151,6 @@
   margin-bottom: -292px;
 }
 .home--service--portfolio {
-  color: rgba(0, 0, 0, 0.7);
   background-color: whitesmoke;
   padding: 120px 50px;
 }
@@ -205,12 +204,13 @@
 /* ----- ABOUT ----- */
 .home--about-sec {
   padding: 120px 50px;
-  color: rgba(0, 0, 0, 0.7);
 }
 .home--about-sec h1 {
+  margin-bottom: 50px;
   font-size: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 30px;
   text-align: center;
 }
@@ -230,10 +230,14 @@
 .home--about--flx-con a {
   text-underline-offset: 5px;
   cursor: pointer;
-  color: var(--main-color);
+  color: var(--secondary-color);
 }
 .home--about--flx-con a:hover {
   text-decoration: underline;
+}
+.home--about--flx-con span {
+  color: var(--main-color);
+  font-style: italic;
 }
 .home--about--flx-con img {
   height: 500px;
@@ -271,8 +275,8 @@
 
 @media (max-width: 812px) {
   .home--hero--sec {
-  height: 90vh;
-}
+    height: 90vh;
+  }
   .home--hero--text-div h1 {
     font-size: 63px;
     max-width: 650px;
@@ -283,6 +287,9 @@
   }
   .home--about--flx-con {
     flex-direction: column;
+  }
+  .home--about-sec h1 {
+    font-size: 2.5em;
   }
 }
 @media (max-width: 704px) {
@@ -309,6 +316,12 @@
     padding: 3.5px 10px;
     background: linear-gradient(45deg, var(--main-color)15%, var(--secondary-color)65%);
     align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .home--about-sec h1:before,
+  .home--about-sec h1:after {
+    display: none;
   }
 }
 @media (max-width: 450px) {

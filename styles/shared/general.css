@@ -30,6 +30,7 @@ body {
   overflow-x: hidden;
   position: relative;
   box-sizing: border-box;
+  color: rgb(47, 50, 58);
 }
 
 :root {
