@@ -1,7 +1,7 @@
 /* ----- ABOUT ----- */
 .about-sec {
   position: relative;
-  padding-bottom: 150px;
+  padding-bottom: 150px 150px 0;
 }
 .about-sec h1 {
   margin: 80px 50px 50px;
@@ -52,46 +52,7 @@
   font-size: 20px;
 }
 body {
-  padding-bottom: 800px;
 }
-.assets {
-  margin: 0 50px 100px;
-  color: var(--secondary-color);
-}
-.assets-txt {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-}
-.assets p {
-  text-align: center;
-  margin: 0;
-  max-width: 600px;
-}
-.assets span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 30px;
-  text-align: center;
-  font-size: 20.8px;
-  font-weight: 600;
-}
-.assets span::before,
-.assets span::after {
-  content: "";
-  flex: 1;
-  background: linear-gradient(
-    45deg,
-    var(--secondary-color) 15%,
-    var(--main-color) 65%
-    );
-    align-items: center;
-    border-top: 2px dashed var(--secondary-color);
-  }
 .more-about-us {
   display: flex;
 }
@@ -130,11 +91,11 @@ body {
 }
 
 .about--assets {
-  padding: 100px 50px 150px;
+  padding: 150px 50px 150px;
   background-color: whitesmoke;
 }
 .about--assets h1 {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   font-size: 50px;
   display: flex;
   align-items: center;
@@ -167,6 +128,46 @@ body {
   width: 100%;
   object-fit: cover;
 }
+.assets {
+  margin-top: 120px;
+  color: var(--secondary-color);
+}
+.assets-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.assets p {
+  text-align: center;
+  margin: 0;
+  max-width: 600px;
+  line-height: 35px;
+  font-size: 20px;
+}
+.assets span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20.8px;
+  font-weight: 600;
+}
+.assets span::before,
+.assets span::after {
+  content: "";
+  flex: 1;
+  background: linear-gradient(
+    45deg,
+    var(--secondary-color) 15%,
+    var(--main-color) 65%
+    );
+    align-items: center;
+    border-top: 2px dashed var(--secondary-color);
+}
 
 @media (max-width: 1132px) {
   .about--flx-con {
@@ -175,6 +176,9 @@ body {
   .about-sec h1 {
     margin: 80px 35px 50px;
   }
+  .about--assets {
+    padding: 150px 35px 150px;
+  }
 }
 @media (max-width: 1002px) {
   .about--flx-con {
@@ -182,6 +186,9 @@ body {
   }
   .about-sec h1 {
     margin: 80px 20px 50px;
+  }
+  .about--assets {
+    padding: 150px 20px 150px;
   }
 }
 
