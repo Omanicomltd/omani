@@ -58,7 +58,6 @@ body {
 }
 .more-about-us-img-con {
   flex: 1;
-  background-color: red;
 }
 .more-about-us-img {
   height: 100vh;
@@ -69,7 +68,6 @@ body {
 }
 .more-about-us-text-con {
   flex: 1;
-  background-color: pink;
 }
 .more-about-us-text-con h2 {
   font-size: 50px;
@@ -118,7 +116,8 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  column-gap: 10px;
+  row-gap: 30px;
 }
 .about--assets-con .img-con {
   height: 400px;
