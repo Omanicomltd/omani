@@ -1,5 +1,26 @@
 import projects from "./data/portfolioData.js";
-console.log(projects[0].images[0]);
 
-const imgContainer = document.querySelector('.js-img-con');
-imgContainer.innerHTML += `<img src="../${projects[0].images[3]}" alt="project images" />`;
+const servicePortfolioSection = document.querySelector(".js-service--portfolio-sec");
+let projectHTML = '';
+projects.forEach(project => {
+  const projectImages =  project.images.map(projectImage => {
+    return `
+      <div class="service--portfolio-img-bx">
+        <img
+          src="../${projectImage}"
+          alt="${project.title}"
+          />
+      </div>
+    `;
+  });
+  console.log(...projectImages);
+  projectHTML += `
+    <div class="service--portfolio-con">
+        <div class="service--portfolio-title-con">
+          <h3 id="${project.id}">${project.title}</h3>
+        </div>
+        <div class="service--portfolio-img-con">${projectImages.join('')}</div>
+      </div>
+  `;
+});
+servicePortfolioSection.innerHTML += projectHTML;

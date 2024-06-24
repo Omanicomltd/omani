@@ -1,6 +1,7 @@
 const projects = [
   {
     title: "Bags",
+    id: "bags",
     images: [
       "images/portfolio/bags/bag1.jpg",
       "images/portfolio/bags/bag2.jpg",
@@ -9,6 +10,7 @@ const projects = [
     ],
   },
   {
+    id: "cards",
     title: "Cards",
     images: [
       "images/portfolio/cards/card1.jpg",
@@ -18,7 +20,8 @@ const projects = [
     ],
   },
   {
-    title: "Drug Packages",
+    id: "drugs-packages",
+    title: "Drugs Packages",
     images: [
       "images/portfolio/drug-packages/33copy1.jpg",
       "images/portfolio/drug-packages/33copy2.jpg",
@@ -26,6 +29,7 @@ const projects = [
     ],
   },
   {
+    id: "jotters",
     title: "Jotters",
     images: [
       "images/portfolio/jotters/jotter1.jpg",
@@ -35,6 +39,7 @@ const projects = [
     ],
   },
   {
+    id: "journals",
     title: "Journals",
     images: [
       "images/portfolio/journals/journal1.jpg",
@@ -44,6 +49,7 @@ const projects = [
     ],
   },
   {
+    id: "posters",
     title: "Posters",
     images: [
       "images/portfolio/posters/poster1.jpg",
@@ -62,6 +68,7 @@ const projects = [
     ],
   },
   {
+    id: "stationeries",
     title: "Stationeries",
     images: [
       "images/portfolio/stationeries/stationery1.jpg",
@@ -70,7 +77,8 @@ const projects = [
     ],
   },
   {
-    title: "Calender",
+    id: "calenders",
+    title: "Calenders",
     images: [
       "images/portfolio/calender/calender1.jpg",
       "images/portfolio/calender/calender2.jpg",
