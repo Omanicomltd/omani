@@ -8,12 +8,10 @@
   height: 50vh;
 }
 .hero--text-div {
-  /* height: 100%; */
   padding: 0 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: rgba(0, 0, 0, 0.4); */
 }
 .hero--text-div h1 {
   font: 96px poppins, sans-serif;

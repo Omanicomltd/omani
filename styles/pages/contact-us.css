@@ -1,8 +1,7 @@
 .contact--sec {
-  padding: 100px 50px;
-  /* background-color: red; */
+  padding: 50px 50px 150px;
 }
-.contact--sec h1{
+.contact--sec h1 {
   font-size: 50px;
   margin-bottom: 10px;
 }
@@ -20,31 +19,49 @@
   color: white;
   border: none;
   cursor: pointer;
-  box-shadow: -5px -5px 0px rgba(112,204, 133, 0);
+  box-shadow: -5px -5px 0px rgba(112, 204, 133, 0);
+}
+.contact--sec-talk a:hover {
+  background: linear-gradient(
+    45deg,
+    var(--main-color) 15%,
+    var(--secondary-color) 65%
+  );
 }
 .contact-contact-con {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
-  /* background-color: rgb(15, 15, 15); */
 }
-.contact-contact-con div {
-  transition: all 0.8s;
+.phone-con,
+.address-con,
+.email-con {
+  min-width: 300px;
+  transition: transform 0.5s, box-shadow 0.5s;
   background-color: white;
   position: relative;
-  padding: 150px 0;
+  padding: 35px 30px;
   flex: 1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
 }
-.contact-contact-con div:hover {
+.phone-con:hover,
+.address-con:hover,
+.email-con:hover {
   background: linear-gradient(
     45deg,
     var(--secondary-color) 15%,
     var(--main-color) 65%
   );
   transform: translateY(-10px);
+  color: white;
 }
 .phone-con:hover {
   box-shadow: -10px -10px 0px rgba(255, 0, 0, 0.5);
@@ -52,10 +69,10 @@
 .address-con:hover {
   box-shadow: 10px 10px 0px rgba(255, 0, 0, 0.5);
 }
-/* .phone-con span,
-.address-con span {
+.phone-con .phone-ab,
+.address-con .address-ab {
   position: absolute;
-  padding: 100px;
+  padding: 50px;
   z-index: -1;
 }
 .phone-con:hover {
@@ -64,23 +81,87 @@
 .address-con:hover {
   box-shadow: 10px 10px 0px rgba(255, 0, 0, 0.5);
 }
-.phone-con:hover .phone-ab {
-  opacity: 0;
-}
-.address-con:hover .address-ab {
-  border-color: transparent;
-}
 .phone-con span {
   top: -10px;
   left: -10px;
-  transition: all 0.5s;
+  transition: opacity 0.5s;
   border-top: 10px solid red;
   border-left: 10px solid red;
 }
 .address-con span {
   bottom: -10px;
   right: -10px;
-  transition: all 0.5s;
+  transition: opacity 0.5s;
   border-bottom: 10px solid red;
   border-right: 10px solid red;
-} */
+}
+.phone-con:hover .phone-ab {
+  opacity: 0;
+}
+.address-con:hover .address-ab {
+  opacity: 0;
+}
+.phone-con .icon,
+.address-con .icon,
+.email-con .icon {
+  font-size: 50px;
+  color: transparent;
+  background: linear-gradient(
+    45deg,
+    var(--secondary-color) 15%,
+    var(--main-color) 65%
+  );
+  background-clip: text;
+  transition: color 0.15s;
+}
+.phone-con:hover .icon,
+.address-con:hover .icon,
+.email-con:hover .icon {
+  color: white;
+}
+.phone-con .link,
+.address-con .link,
+.email-con .link {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.15s;
+}
+.phone-con:hover .link,
+.address-con:hover  .link,
+.email-con:hover .link {
+  color: white;
+}
+.contact-contact-con p {
+  transition: color 0.15s;
+}
+
+.contact--map-sec {
+  padding: 0 0 150px;
+}
+
+@media (max-width: 812px) {
+  .contact--sec-talk {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact--sec h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .phone-con:hover {
+    box-shadow: none;
+  }
+  .address-con:hover {
+    box-shadow: none;
+  }
+  .phone-con span {
+    border: none
+  }
+  .address-con span {
+    border: none
+  }
+}
