@@ -2,7 +2,7 @@
   padding: 100px 50px;
 }
 .service--portfolio-sec h1 {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   font-size: 50px;
   display: flex;
   align-items: center;
@@ -21,6 +21,24 @@
   );
   align-items: center;
 }
+
+.clientele-con {
+  padding-bottom: 50px;
+}
+.clientele-con h3 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-style: italic;
+}
+.clientele-bx {
+ border: 2px solid var(--main-color);
+ padding: 30px;
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 20px;
+ justify-content: space-between;
+}
+
 .service--portfolio-con {
   margin-bottom: 20px;
   display: flex;
