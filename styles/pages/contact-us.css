@@ -46,7 +46,13 @@
   );
   transform: translateY(-10px);
 }
-.phone-con span,
+.phone-con:hover {
+  box-shadow: -10px -10px 0px rgba(255, 0, 0, 0.5);
+}
+.address-con:hover {
+  box-shadow: 10px 10px 0px rgba(255, 0, 0, 0.5);
+}
+/* .phone-con span,
 .address-con span {
   position: absolute;
   padding: 100px;
@@ -77,4 +83,4 @@
   transition: all 0.5s;
   border-bottom: 10px solid red;
   border-right: 10px solid red;
-}
+} */
