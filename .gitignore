@@ -1,9 +1,16 @@
-# Remember to put the current fonts
-index.html
-contact.html
+# /**  TODAY TASK  **/
+# INDEX.HTML #
+#Put Icons
+index.html 3
+contact-us.html 1
 
-# remember to put "Expalin designers".
+# Add Services
+index.html
 service.html
 
-# footer ficing for local storage view points
-footers
+# Footer
+<!-- ALL -->
+
+# ABOUT.HTML #
+# Vision Image scroll change
+about.html

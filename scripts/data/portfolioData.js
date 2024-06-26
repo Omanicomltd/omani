@@ -4,8 +4,9 @@ const projects = [
     id: "bags",
     images: [
       "images/portfolio/bags/bag1.jpg",
-      "images/portfolio/bags/bag2.jpg",
+      "images/portfolio/bags/BAG 2.jpg",
       "images/portfolio/bags/bag3.jpg",
+      "images/portfolio/bags/BAG (1).jpg",
       "images/portfolio/bags/bag4.jpg",
     ],
   },
@@ -34,8 +35,9 @@ const projects = [
     images: [
       "images/portfolio/jotters/jotter1.jpg",
       "images/portfolio/jotters/jotter2.jpg",
-      "images/portfolio/jotters/jotter3.jpg",
-      "images/portfolio/jotters/dairy.jpg",
+      "images/portfolio/jotters/NOTEPAD 2.jpg",
+      "images/portfolio/jotters/NOTEPAD.jpg",
+      "images/portfolio/jotters/dairy.jpg"
     ],
   },
   {
@@ -81,8 +83,9 @@ const projects = [
     title: "Calenders",
     images: [
       "images/portfolio/calender/calender1.jpg",
-      "images/portfolio/calender/calender2.jpg",
-      "images/portfolio/calender/calender3.jpg",
+      "images/portfolio/calender/CAL.jpg",
+      "images/portfolio/calender/CAL 2.jpg",
+      "images/portfolio/calender/calender3.jpg"
     ],
   },
 ];
