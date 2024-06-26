@@ -81,6 +81,15 @@
           </button></a
         >
       </header>
+      <div id="slider">
+        <figure>
+          <img src="styles/background-images/BAG.jpg" alt="background images sliders">
+          <img src="styles/background-images/CAL.jpg" alt="background images sliders">
+          <img src="styles/background-images/NOTEPAD 2.jpg" alt="background images sliders">
+          <img src="styles/background-images/NOTEPAD.jpg" alt="background images sliders">
+          <img src="styles/background-images/BAG.jpg" alt="background images sliders">
+        </figure>
+      </div>
       <div class="home--hero--text-div">
         <h1 class="hero-header">WE DESIGN &amp; WE PRINT</h1>
         <button class="home--hero--btn">
@@ -89,7 +98,6 @@
         <span class="swipe-pagination-bullet"></span>
       </div>
     </section>
-
     <section class="home--service-sec">
       <div class="home--service--con">
         <div class="home--service--flx-con">
@@ -145,12 +153,50 @@
           </button>
         </span>
         <div class="home--service--portfolio-img-con">
-          <div class="h--s--p-img-prev">&lt;</div>
-          <div class="h--s--p-img-next">&gt;</div>
-          <img
-            src="styles/background-images/home.jpg"
-            alt="Portfolio images slider"
-          />
+          <div id="prev-btn" class="h--s--p-img-prev">&lt;</div>
+          <div id="next-btn" class="h--s--p-img-next">&gt;</div>
+          <div class="gallery js-gallery">
+            <div>
+              <span><img src="images/portfolio/bags/BAG (1).jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/bags/bag4.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/bags/BAG 2.jpg" alt="portfolio images"></span>
+            </div>
+            <div>
+              <span><img src="images/portfolio/calender/CAL.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/calender/CAL 2.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/calender/calender1.jpg" alt="portfolio images"></span>
+            </div>
+            <div>
+              <span><img src="images/portfolio/cards/card1.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/cards/card3.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/cards/card4.jpg" alt="portfolio images"></span>
+            </div>
+            <div>
+              <span><img src="images/portfolio/drug-packages/33copy1.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/drug-packages/33copy3.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/drug-packages/33copy2.jpg" alt="portfolio images"></span>
+            </div>
+            <div>
+              <span><img src="images/portfolio/jotters/NOTEPAD 2.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/jotters/NOTEPAD.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/jotters/jotter2.jpg" alt="portfolio images"></span>
+            </div>
+            <div>
+              <span><img src="images/portfolio/journals/journal4.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/journals/journal3.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/journals/journal1.jpg" alt="portfolio images"></span>
+            </div>
+            <div>
+              <span><img src="images/portfolio/posters/poster4.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/posters/poster8.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/posters/poster5.jpg" alt="portfolio images"></span>
+            </div>
+            <div>
+              <span><img src="images/portfolio/stationeries/stationery3.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/stationeries/stationery2.jpg" alt="portfolio images"></span>
+              <span><img src="images/portfolio/stationeries/stationery1.jpg" alt="portfolio images"></span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -246,6 +292,7 @@
     </footer>
 
     <script src="scripts/navbars.js"></script>
+    <script src="scripts/index.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

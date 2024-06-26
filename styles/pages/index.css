@@ -5,10 +5,64 @@
   transition-delay: 0.75s;
 }
 
+#slider {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: inherit;
+  z-index: -1;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  height: inherit;
+  animation: 20s slider infinite;
+}
+#slider figure img {
+  float: left;
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: top; */
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
 
 /* ----- HERO ----- */
 .home--hero--sec {
-  background-image: url(../background-images/hands-reaching-pot.png);
+  /* background-image: url(../background-images/hands-reaching-pot.png); */
+  background-color: rgba(0, 0, 0, 0.6);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -23,6 +77,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  z-index: 2;
 }
 .home--hero--text-div h1 {
   font: 96px poppins, sans-serif;
@@ -167,20 +222,48 @@
 }
 .home--service--portfolio-img-con {
   height: 350px;
-  background-color: red;
   position: relative;
 }
-.home--service--portfolio-img-con img {
-  width: 100%;
+ .gallery {
+  display: flex;
   height: 100%;
-  object-fit: cover;
+  gap: 10px;
+  overflow-x: scroll;
 }
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+.gallery div{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  flex: none;
+ }
+ .gallery div span {
+  width: 100%;
+ }
+ .gallery div img {
+  filter: grayscale(20%);
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  transition: transform 0.5s;
+  cursor: pointer;
+ }
+ .gallery div img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+ }
 .h--s--p-img-prev,
 .h--s--p-img-next {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(100px);
   color: white;
   position: absolute;
+  cursor: pointer;
   z-index: 1;
   height: 50px;
   border-radius: 25px;
@@ -291,6 +374,9 @@
   .home--about-sec h1 {
     font-size: 2.5em;
   }
+  .gallery div{
+    grid-template-columns: auto auto;
+   }
 }
 @media (max-width: 704px) {
   .home--hero--text-div h1 {
@@ -323,6 +409,9 @@
   .home--about-sec h1:after {
     display: none;
   }
+  .gallery div{
+    grid-template-columns: auto;
+   }
 }
 @media (max-width: 450px) {
   .home--hero--text-div h1 {
