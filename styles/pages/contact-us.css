@@ -191,6 +191,7 @@ textarea {
   padding: 12px 15px;
   max-height: 300px;
   margin-bottom: 10px;
+  resize: none;
 }
 .input-con input:focus,
 textarea:focus {
@@ -209,17 +210,30 @@ form button {
   box-shadow: -5px -5px 0px rgba(112, 204, 133, 0);
   border-radius: 2px;
 }
-
+@media (max-width: 1132px) {
+  .contact--sec,
+  .contact--form-sec {
+    padding: 50px 35px 150px;
+  }
+}
+@media (max-width: 1002px) {
+  .contact--sec,
+  .contact--form-sec {
+    padding: 50px 20px 150px;
+  }
+  form {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 812px) {
+  .contact--sec h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
   .contact--sec-talk {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .contact--sec h1 {
-    font-size: 2.5em;
-    text-align: center;
   }
   .phone-con:hover {
     box-shadow: none;
@@ -232,5 +246,12 @@ form button {
   }
   .address-con span {
     border: none
+  }
+  .input-con { 
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    padding: 0;
   }
 }
