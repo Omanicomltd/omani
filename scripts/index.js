@@ -45,13 +45,3 @@ prevBtn.addEventListener("click", () => {
   prevSlide();
   autoSlide();
 });
-// setIntervalId = setInterval(() => {
-//   const isScrolledToLeft =
-//     scrollContainer.scrollLeft ===
-//     scrollContainer.scrollWidth - scrollContainer.clientWidth;
-//   if (isScrolledToLeft) {
-//     scrollContainer.scrollLeft -= scrollContainer.scrollWidth + 10;
-//   } else {
-//     nextSlide();
-//   }
-// }, 3000);

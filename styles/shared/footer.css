@@ -2,31 +2,6 @@ footer {
   background-color: rgb(20, 20, 20);
   color: white;
 }
-.footer--contact-con {
-  display: flex;
-  align-items: center;
-  padding: 30px;
-  border-bottom: 1.5px solid white;
-  background-color: rgb(15, 15, 15);
-}
-
-.footer--contact-con a {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  gap: 10px;
-}
-.footer--contact-con ion-icon {
-  font-size: 20px;
-}
-.footer--contact-con .i {
-  border-right: 1px solid white;
-}
-.footer--contact-con .iii {
-  border-left: 1px solid white;
-}
 .footer--social-con {
   display: flex;
   align-items: center;
@@ -42,7 +17,7 @@ footer {
 .logo-con {
   margin-bottom: 20px;
 }
-.footer--social-con .footer--social-logo {
+.footer--social-logo {
   color: grey;
   font: bold 2em 'Times New Roman', Times, serif;
 }
