@@ -3,7 +3,6 @@ const projects = [
     title: "Bags",
     id: "bags",
     images: [
-      "images/portfolio/bags/bag1.jpg",
       "images/portfolio/bags/BAG 2.jpg",
       "images/portfolio/bags/bag3.jpg",
       "images/portfolio/bags/BAG (1).jpg",
@@ -15,7 +14,6 @@ const projects = [
     title: "Cards",
     images: [
       "images/portfolio/cards/card1.jpg",
-      "images/portfolio/cards/card2.jpg",
       "images/portfolio/cards/card3.jpg",
       "images/portfolio/cards/card4.jpg",
     ],
@@ -24,7 +22,7 @@ const projects = [
     id: "drugs-packages",
     title: "Drugs Packages",
     images: [
-      "images/portfolio/drug-packages/33copy1.jpg",
+      "images/portfolio/drug-packages/33copy1.webp",
       "images/portfolio/drug-packages/33copy2.jpg",
       "images/portfolio/drug-packages/33copy3.jpg",
     ],

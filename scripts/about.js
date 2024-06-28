@@ -21,14 +21,7 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.5, // Trigger the callback when the element is 50% visible
+    threshold: 0.5
   }
 );
 observer.observe(mission);
-// imgCon.innerHTML = `
-// <img
-//   class="more-about-us-img"
-//   src="images/hands-reaching-pot.png"
-//   alt="About images"
-// />
-// `;
