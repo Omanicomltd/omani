@@ -6,7 +6,7 @@ const projects = [
       "images/portfolio/bags/BAG 2.jpg",
       "images/portfolio/bags/bag3.jpg",
       "images/portfolio/bags/BAG (1).jpg",
-      "images/portfolio/bags/bag4.jpg",
+      "images/portfolio/bags/heirs-bag.jpg"
     ],
   },
   {
@@ -16,6 +16,8 @@ const projects = [
       "images/portfolio/cards/card1.jpg",
       "images/portfolio/cards/card3.jpg",
       "images/portfolio/cards/card4.jpg",
+      "images/portfolio/cards/mtn-card.jpg",
+      "images/portfolio/cards/uba-card.jpg"
     ],
   },
   {
@@ -34,8 +36,8 @@ const projects = [
       "images/portfolio/jotters/jotter1.jpg",
       "images/portfolio/jotters/jotter2.jpg",
       "images/portfolio/jotters/NOTEPAD 2.jpg",
-      "images/portfolio/jotters/NOTEPAD.jpg",
-      "images/portfolio/jotters/dairy.jpg"
+      "images/portfolio/jotters/dairy.jpg",
+      "images/portfolio/jotters/heirs-jotter.jpg",
     ],
   },
   {
@@ -43,9 +45,9 @@ const projects = [
     title: "Journals",
     images: [
       "images/portfolio/journals/journal1.jpg",
-      "images/portfolio/journals/journal2.jpg",
+      "images/portfolio/journals/annual-report2.jpg",
       "images/portfolio/journals/journal3.jpg",
-      "images/portfolio/journals/journal4.jpg",
+      "images/portfolio/stationeries/annual-report.jpg"
     ],
   },
   {
@@ -54,7 +56,6 @@ const projects = [
     images: [
       "images/portfolio/posters/poster1.jpg",
       "images/portfolio/posters/poster2.jpg",
-      "images/portfolio/posters/poster3.jpg",
       "images/portfolio/posters/poster4.jpg",
       "images/portfolio/posters/poster5.jpg",
       "images/portfolio/posters/poster6.jpg",
@@ -73,7 +74,7 @@ const projects = [
     images: [
       "images/portfolio/stationeries/stationery1.jpg",
       "images/portfolio/stationeries/stationery2.jpg",
-      "images/portfolio/stationeries/stationery3.jpg",
+      "images/portfolio/stationeries/stationery3.jpg"
     ],
   },
   {
