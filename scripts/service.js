@@ -13,7 +13,6 @@ projects.forEach(project => {
       </div>
     `;
   });
-  console.log(...projectImages);
   projectHTML += `
     <div class="service--portfolio-con">
         <div class="service--portfolio-title-con">

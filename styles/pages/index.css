@@ -58,7 +58,6 @@
   }
 }
 
-
 /* ----- HERO ----- */
 .home--hero--sec {
   /* background-image: url(../background-images/hands-reaching-pot.png); */
@@ -96,41 +95,44 @@
   color: transparent;
 }
 @keyframes arrow {
-  0%, 100% {
+  0% {
     transform: translateY(-10px);
   }
   20% {
-    transform: translateY(-8px);
-  }
-  40% {
     transform: translateY(-6px);
   }
+  40% {
+    transform: translateY(-2px);
+  }
   60% {
-    transform: translateY(-4px);
+    transform: translateY(2px);
   }
   80% {
-    transform: translateY(-2px);
+    transform: translateY(6px);
+  }
+  100% {
+    transform: translateY(10px);
   }
 }
 .home--hero--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 40px 0 96px;
-  padding: 10px 40px 10px 50px;
+  padding: 10px 25px;
   background-color: var(--main-color);
   font-size: 16px;
   color: white;
   border: none;
   cursor: pointer;
-  box-shadow: -5px -5px 0px rgba(112,204, 133, 0);
+  box-shadow: -5px -5px 0px rgba(112, 204, 133, 0);
   position: relative;
 }
-.home--hero--btn::before {
-  content: '⬇';
-  position: absolute;
-  font-size: 20px;
-  left: 30px;
+.home--hero--btn .arrow-down {
+  font-size: 16px;
+  left: 20px;
   animation: arrow 1s ease infinite;
 }
-
 .home--hero--btn:hover {
   background: linear-gradient(
     45deg,
@@ -147,7 +149,6 @@
   padding: 3px 20px;
   align-self: center;
 }
-
 
 /* ----- SERVICE ----- */
 .home--service-sec {
@@ -205,7 +206,7 @@
   color: white;
   border: none;
   cursor: pointer;
-  box-shadow: -5px -5px 0px rgba(112,204, 133, 0);
+  box-shadow: -5px -5px 0px rgba(112, 204, 133, 0);
 }
 .home--service-sec button:hover {
   background: linear-gradient(
@@ -248,8 +249,7 @@
   height: 350px;
   position: relative;
 }
- .gallery {
-  background-color: white;
+.gallery {
   display: flex;
   height: 100%;
   gap: 10px;
@@ -258,7 +258,7 @@
 .gallery::-webkit-scrollbar {
   display: none;
 }
-.gallery div{
+.gallery div {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
@@ -266,22 +266,22 @@
   width: 100%;
   justify-content: space-around;
   flex: none;
- }
- .gallery div span {
+}
+.gallery div span {
   width: 100%;
- }
- .gallery div img {
+}
+.gallery div img {
   filter: grayscale(20%);
   width: 100%;
   height: 320px;
   object-fit: contain;
   transition: transform 0.5s;
   cursor: pointer;
- }
- .gallery div img:hover {
+}
+.gallery div img:hover {
   filter: grayscale(0);
   transform: scale(1.1);
- }
+}
 .h--s--p-img-prev,
 .h--s--p-img-next {
   background-color: rgba(0, 0, 0, 0.3);
@@ -323,10 +323,14 @@
   text-align: center;
 }
 .home--about-sec h1::after {
-  content: '';
+  content: "";
   flex: 1;
   padding: 3.5px 10px;
-  background: linear-gradient(45deg, var(--secondary-color)15%, var(--main-color)65%);
+  background: linear-gradient(
+    45deg,
+    var(--secondary-color) 15%,
+    var(--main-color) 65%
+  );
   align-items: center;
 }
 .home--about--flx-con {
@@ -399,12 +403,12 @@
   .home--about-sec h1 {
     font-size: 2.5em;
   }
-  .gallery div{
+  .gallery div {
     grid-template-columns: auto auto;
-   }
-  .gallery div .img3{
+  }
+  .gallery div .img3 {
     display: none;
-   }
+  }
 }
 @media (max-width: 704px) {
   .home--hero--text-div h1 {
@@ -425,10 +429,14 @@
     text-align: center;
   }
   .home--about-sec h1::before {
-    content: '';
+    content: "";
     flex: 1;
     padding: 3.5px 10px;
-    background: linear-gradient(45deg, var(--main-color)15%, var(--secondary-color)65%);
+    background: linear-gradient(
+      45deg,
+      var(--main-color) 15%,
+      var(--secondary-color) 65%
+    );
     align-items: center;
   }
 }
@@ -437,12 +445,12 @@
   .home--about-sec h1:after {
     display: none;
   }
-  .gallery div{
+  .gallery div {
     grid-template-columns: auto;
-   }
+  }
   .gallery div .img2 {
     display: none;
-   }
+  }
 }
 @media (max-width: 450px) {
   .home--hero--text-div h1 {
@@ -451,7 +459,7 @@
   .hero-header {
     font-weight: 900;
   }
-  .home--about-sec h1{
+  .home--about-sec h1 {
     display: flex;
     justify-content: center;
   }
