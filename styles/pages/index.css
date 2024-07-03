@@ -11,6 +11,9 @@
   top: 0;
   height: inherit;
   z-index: -1;
+  animation: fade-background linear forwards;
+  animation-timeline: view();
+  animation-range: exit;
 }
 #slider figure {
   position: relative;
@@ -55,6 +58,15 @@
   }
   100% {
     left: -400%;
+  }
+}
+
+@keyframes fade-background{
+  25% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
   }
 }
 
