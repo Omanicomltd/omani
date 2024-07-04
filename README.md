@@ -1,12 +1,5 @@
-<!-- For the contact form -->
-
-# FormSpree
-
-- ["formspree.io"]
-
-<!-- This code was written by YourGuySoft check me on youtube -->
-
-# Contact YourGuySoft
+# This code was written by YourGuySoft
+# vvvv For more info Contact me on vvvv
 
 - @YourGuySoft [youtube]
 
