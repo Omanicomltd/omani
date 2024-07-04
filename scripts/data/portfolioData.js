@@ -33,10 +33,8 @@ const projects = [
     id: "jotters",
     title: "Jotters",
     images: [
-      "images/portfolio/jotters/jotter1.jpg",
       "images/portfolio/jotters/jotter2.jpg",
       "images/portfolio/jotters/NOTEPAD 2.jpg",
-      "images/portfolio/jotters/dairy.jpg",
       "images/portfolio/jotters/heirs-jotter.jpg",
     ],
   },
@@ -44,10 +42,9 @@ const projects = [
     id: "journals",
     title: "Journals",
     images: [
-      "images/portfolio/journals/journal1.jpg",
       "images/portfolio/journals/annual-report2.jpg",
       "images/portfolio/journals/journal3.jpg",
-      "images/portfolio/stationeries/annual-report.jpg"
+      "images/portfolio/journals/annual-report.jpg"
     ],
   },
   {
@@ -55,7 +52,6 @@ const projects = [
     title: "Posters",
     images: [
       "images/portfolio/posters/poster1.jpg",
-      "images/portfolio/posters/poster2.jpg",
       "images/portfolio/posters/poster4.jpg",
       "images/portfolio/posters/poster5.jpg",
       "images/portfolio/posters/poster6.jpg",
@@ -81,7 +77,6 @@ const projects = [
     id: "calenders",
     title: "Calenders",
     images: [
-      "images/portfolio/calender/calender1.jpg",
       "images/portfolio/calender/CAL.jpg",
       "images/portfolio/calender/CAL 2.jpg",
       "images/portfolio/calender/calender3.jpg"

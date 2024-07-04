@@ -33,7 +33,6 @@ body {
   color: rgb(47, 50, 58);
 }
 :root {
-  /* --main-color: rgb(112,204, 133); */
   --main-color: red;
   --secondary-color: rgb(80, 179, 182);
   --title-color: #222;
