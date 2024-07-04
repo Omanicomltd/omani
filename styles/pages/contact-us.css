@@ -1,5 +1,6 @@
 .contact--sec {
   padding: 50px 50px 150px;
+  overflow: hidden !important;
 }
 .contact--sec h1 {
   font-size: 50px;
