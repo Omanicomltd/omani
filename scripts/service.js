@@ -7,7 +7,7 @@ projects.forEach(project => {
     return `
       <div class="service--portfolio-img-bx">
         <img
-          src="../${projectImage}"
+          src="${projectImage}"
           alt="${project.title}"
           />
       </div>
