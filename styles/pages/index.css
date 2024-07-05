@@ -28,7 +28,6 @@
   width: 20%;
   height: 100%;
   object-fit: cover;
-  /* object-position: top; */
 }
 
 @keyframes slider {
@@ -61,7 +60,7 @@
   }
 }
 
-@keyframes fade-background{
+@keyframes fade-background {
   25% {
     opacity: 1;
   }
@@ -72,8 +71,7 @@
 
 /* ----- HERO ----- */
 .home--hero--sec {
-  /* background-image: url(../background-images/hands-reaching-pot.png); */
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -141,7 +139,7 @@
   position: relative;
 }
 .home--hero--btn .arrow-down {
-  font-size: 20px;
+  font-size: 22px;
   left: 20px;
   animation: arrow 1s ease infinite;
 }
@@ -183,11 +181,6 @@
   transition: all 0.3s;
   min-width: 300px;
 }
-/* .home--service--flx-bx:hover {
-  margin-top: -20px;
-  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
-  border: none;
-} */
 .home--service--icon-con {
   display: flex;
   align-items: center;
