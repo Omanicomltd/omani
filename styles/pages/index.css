@@ -141,7 +141,7 @@
   position: relative;
 }
 .home--hero--btn .arrow-down {
-  font-size: 16px;
+  font-size: 20px;
   left: 20px;
   animation: arrow 1s ease infinite;
 }
